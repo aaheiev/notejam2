@@ -11,6 +11,7 @@ gem 'turbolinks', '5.2.1'
 gem 'jbuilder',   '2.10.0'
 gem 'bootsnap',   '1.4.9', require: false
 gem 'pg',         '1.2.3'
+gem 'rails-healthcheck', '1.2.0'
 
 # Use SCSS for stylesheets
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
