@@ -9,8 +9,4 @@ class ApplicationController < ActionController::Base
     # end
   end
 
-  def hello
-    render html: "hello, world!"
-  end
-
 end
