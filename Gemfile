@@ -36,9 +36,14 @@ group :development do
 end
 
 group :test do
-  gem 'capybara',           '3.32.2'
-  gem 'selenium-webdriver', '3.142.7'
-  gem 'webdrivers',         '4.3.0'
+  gem 'capybara',                 '3.32.2'
+  gem 'selenium-webdriver',       '3.142.7'
+  gem 'webdrivers',               '4.3.0'
+  gem 'rails-controller-testing', '1.0.4'
+  gem 'minitest',                 '5.14.2'
+  gem 'minitest-reporters',       '1.4.2'
+  gem 'guard',                    '2.16.2'
+  gem 'guard-minitest',           '2.4.6'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
