@@ -73,5 +73,31 @@ Rails.application.configure do
   #   logger.formatter = config.log_formatter
   #   config.logger    = ActiveSupport::TaggedLogging.new(logger)
   # end
+  # REDIS_URL="redis://127.0.0.1:6379/0" ENV['REDIS_URL'] ENV['REDIS_HOST']
+  # ENV['APP_SESSION_KEY'] "aijoh1aepoo4teed0oequoh9Eizee5oc"
+  # config.cache_store = :redis_cache_store, { url: "redis://127.0.0.1:6379/0" }
+  # config.action_controller.perform_caching = true
+  # config.session_store :cache_store, key: "aijoh1aepoo4teed0oequoh9Eizee5oc"
+
+
+  # config/initializers/session_store.rb
+  # config.session_store :redis_store, {
+  #     servers: [
+  #         { host: Rails.application.config.redis_host,
+  #           port: 6379, db: 0, namespace: "session" },
+  #     ],
+  #     expire_after: 1.day
+  # }
+  # config.redis_host = '127.0.0.1'
+  #
+  # config.session_store :redis_session_store, {
+  #     key: 'aijoh1aepoo4teed0oequoh9Eizee5oc',
+  #     redis: {
+  #         expire_after: 120.minutes,  # cookie expiration
+  #         ttl: 120.minutes,           # Redis expiration, defaults to 'expire_after'
+  #         key_prefix: 'notejam2:session:',
+  #         url: 'redis://127.0.0.1:6379/0',
+  #     }
+  # }
 
 end

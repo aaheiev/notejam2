@@ -12,13 +12,10 @@ gem 'jbuilder',   '2.10.0'
 gem 'bootsnap',   '1.4.9', require: false
 gem 'pg',         '1.2.3'
 gem 'rails-healthcheck', '1.2.0'
-# gem 'lograge',    '0.11.2'
 gem 'logist',     '0.2.0'
+gem 'redis',      '4.2.2'
+gem 'redis-session-store'
 
-# Use SCSS for stylesheets
-# Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
-# Use Redis adapter to run Action Cable in production
-# gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 

@@ -24,10 +24,17 @@ services:
 #      timeout:    10s
 #      retries:    5
 
-#  redis:
-#    image:        redis:alpine
-#    ports:
-#      - 6379:6379
+  redis:
+    image:        redis:alpine
+    ports:
+      - 6379:6379
+
+  redis-commander:
+    image: rediscommander/redis-commander:latest
+    environment:
+      - REDIS_HOSTS=local:redis:6379
+    ports:
+      - 8081:8081
 
 #  notejam:
 #    build:        .
@@ -37,7 +44,7 @@ services:
 #      - redis
 #      - mailcatcher
 #    environment:
-#      APP_SESSION_KEY: ailaephiezohchu7uvau7aijoLu5naic
+#      SESSION_KEY: ailaephiezohchu7uvau7aijoLu5naic
 #      RAILS_ENV:  development
 #      RAILS_ENV:  production
 #      REDIS_URL:  redis://redis:6379/0
