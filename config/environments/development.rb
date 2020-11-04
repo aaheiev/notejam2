@@ -60,8 +60,8 @@ Rails.application.configure do
   # routes, locales, etc. This feature depends on the listen gem.
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
 
-  config.logger = Logist::Logger.new(NOTEJAM_LOG_OUTPUT)
-  config.logger.formatter.flat_json = true
+  # config.logger = Logist::Logger.new(NOTEJAM_LOG_OUTPUT)
+  # config.logger.formatter.flat_json = true
 
   # logger           = ActiveSupport::Logger.new(STDOUT)
   # logger.formatter = config.log_formatter
