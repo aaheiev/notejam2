@@ -4,7 +4,6 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '2.7.2'
 
 gem 'rails',             '6.0.3.4'
-gem 'bcrypt',            '3.1.16'
 gem 'bootstrap-sass',    '3.4.1'
 gem 'puma',              '5.0.4'
 gem 'sass-rails',        '6.0.0'
@@ -17,9 +16,9 @@ gem 'rails-healthcheck', '1.2.0'
 gem 'logist',            '0.2.0'
 gem 'redis',             '4.2.2'
 gem 'redis-session-store'
-
+gem 'bcrypt',             '3.1.16'
 # Use Active Model has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
+
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
