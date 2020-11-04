@@ -3,17 +3,18 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.7.2'
 
-gem 'rails',      '6.0.3.4'
-gem 'puma',       '5.0.4'
-gem 'sass-rails', '6.0.0'
-gem 'webpacker',  '4.2.2'
-gem 'turbolinks', '5.2.1'
-gem 'jbuilder',   '2.10.0'
-gem 'bootsnap',   '1.4.9', require: false
-gem 'pg',         '1.2.3'
+gem 'rails',             '6.0.3.4'
+gem 'bootstrap-sass',    '3.4.1'
+gem 'puma',              '5.0.4'
+gem 'sass-rails',        '6.0.0'
+gem 'webpacker',         '4.2.2'
+gem 'turbolinks',        '5.2.1'
+gem 'jbuilder',          '2.10.0'
+gem 'bootsnap',          '1.4.9', require: false
+gem 'pg',                '1.2.3'
 gem 'rails-healthcheck', '1.2.0'
-gem 'logist',     '0.2.0'
-gem 'redis',      '4.2.2'
+gem 'logist',            '0.2.0'
+gem 'redis',             '4.2.2'
 gem 'redis-session-store'
 
 # Use Active Model has_secure_password
