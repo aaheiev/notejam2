@@ -5,3 +5,14 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+# user = User.first
+user = User.first
+if user
+  user.update(name: "Example User",
+              email: "example@railstutorial.org",
+              password: "foobar",
+              password_confirmation: "foobar")
+else
+  user = User.new(name: "Example User", email: "example@railstutorial.org", password: "foobar", password_confirmation: "foobar")
+end
