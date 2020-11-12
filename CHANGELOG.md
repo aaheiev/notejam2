@@ -1,3 +1,6 @@
+### 2020-11-11_3
+- Healthcheck - https://github.com/aaheiev/notejam2/projects/1#card-49175510 
+
 ### 2020-11-11_2
 - Project version - https://github.com/aaheiev/notejam2/projects/1#card-49175502 
 
