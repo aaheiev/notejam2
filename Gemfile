@@ -4,6 +4,8 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '2.7.2'
 gem 'rails',             '6.0.3.4'
 gem 'high_voltage',      '3.1.2'
+gem 'bootstrap',         '4.5.3'
+gem 'jquery-rails',      '4.4.0'
 # gem 'bootstrap-sass',    '3.4.1'
 gem 'puma',              '5.0.4'
 gem 'sass-rails',        '6.0.0'
@@ -25,8 +27,6 @@ gem 'bcrypt',             '3.1.16'
 group :development, :test do
   gem 'sqlite3', '1.4.2'
   gem 'byebug',  '11.1.3', platforms: [:mri, :mingw, :x64_mingw]
-  # Call 'byebug' anywhere in the code to stop execution and get a debugger console
-  # gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 end
 
 group :development do
